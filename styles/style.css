@@ -77,8 +77,71 @@ nav{
 /*main section style starts*/
 
 /*first section style starts */
+#first-section{
+    width: 90%;
+    margin: auto;
+}
+.first-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.first-description h3{
+    color: #0B0223;
 
+text-align: center;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+text-transform: uppercase;
+}
+.first-description h1{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    color:#F948B2;
+}
+.icon-with-text p{
+    color: #534C64;
 
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.icon-t{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.buttons{
+    padding-top: 20px;
+}
+.btn-1, .btn-2{
+    padding: 20px 40px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 40%;
+    color: white;
+    cursor: pointer;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+.btn-1{
+    background-color: #F948B2;
+    margin-right: 10px;
+}
+.btn-2{
+    background-color: #4EC5F7;
+}
 /* first section style ends*/
 
 /*main section style ends */
