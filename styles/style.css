@@ -250,5 +250,144 @@ margin-top: 10px;
 
 /* fourth section style ends */
 
+/* fifth section style starts */
+/* fifth section style ends */
+
+/* sixth section style starts */
+#sixth-section{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 100px;
+    
+}
+.buttons-div-one{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    padding-bottom: 20px;
+}
+
+.buttons-div-two{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    
+}
+
+.buttons-div-one button{
+    color: #0B0223;
+
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    background: none;
+    border: none;
+   
+    
+}
+
+.buttons-div-one button{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   gap: 5px;
+}
+.buttons-div-two button{
+    color: #0B0223;
+
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    background: none;
+    border: none;
+}
+.buttons-div-two button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+ }
+
+ .buttons-div-one button:hover{
+ 
+    border: 2px solid #FF42A5;
+    border-radius: 30%;
+    background: #FFF;
+    transition-delay: 0.1s;
+ }
+ .buttons-div-one img{
+    width: 60px;
+    height: 60px;
+ }
+
+ .buttons-div-two img{
+    width: 60px;
+    height: 60px;
+ }
+ .buttons-div-two button:hover{
+    border: 2px solid #FF42A5;
+    border-radius: 30%;
+    background: #FFF;
+    transition-delay: 0.1s;
+
+ }
+
+
+/* sixth section style ends */
+
+
 
 /*main section style ends */
+
+/*footer section style starts*/
+
+footer{
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color:  #0B0223;
+    color: aliceblue;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    
+}
+.text-sections{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+.icons{
+    margin-bottom: 20px;
+    
+}
+.icons i{
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    color: #FFFF;
+}
+.p-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+/* footer section style ends */
